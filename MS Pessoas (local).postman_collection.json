@@ -14,11 +14,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:3333/tipos",
+							"raw": "{{API_Pessoas}}/tipos",
 							"host": [
-								"localhost"
+								"{{API_Pessoas}}"
 							],
-							"port": "3333",
 							"path": [
 								"tipos"
 							]
@@ -32,11 +31,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:3333/tipos/carregar/605ca44337767117c444037a",
+							"raw": "{{API_Pessoas}}/tipos/carregar/605ca44337767117c444037a",
 							"host": [
-								"localhost"
+								"{{API_Pessoas}}"
 							],
-							"port": "3333",
 							"path": [
 								"tipos",
 								"carregar",
@@ -62,11 +60,10 @@
 							"raw": "{\r\n    \"nome\": \"Tipo_teste\"\r\n}"
 						},
 						"url": {
-							"raw": "localhost:3333/tipos/adicionar",
+							"raw": "{{API_Pessoas}}/tipos/adicionar",
 							"host": [
-								"localhost"
+								"{{API_Pessoas}}"
 							],
-							"port": "3333",
 							"path": [
 								"tipos",
 								"adicionar"
@@ -81,11 +78,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "localhost:3333/tipos/deletar/605ca44337767117c444037a",
+							"raw": "{{API_Pessoas}}/tipos/deletar/605ca44337767117c444037a",
 							"host": [
-								"localhost"
+								"{{API_Pessoas}}"
 							],
-							"port": "3333",
 							"path": [
 								"tipos",
 								"deletar",
@@ -111,11 +107,10 @@
 							"raw": "{\r\n    \"nome\": \"Tipo1_alterado\"\r\n}"
 						},
 						"url": {
-							"raw": "localhost:3333/tipos/alterar/605ca3f637767117c4440379",
+							"raw": "{{API_Pessoas}}/tipos/alterar/605ca3f637767117c4440379",
 							"host": [
-								"localhost"
+								"{{API_Pessoas}}"
 							],
-							"port": "3333",
 							"path": [
 								"tipos",
 								"alterar",
@@ -136,11 +131,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:3333/pessoas",
+							"raw": "{{API_Pessoas}}/pessoas",
 							"host": [
-								"localhost"
+								"{{API_Pessoas}}"
 							],
-							"port": "3333",
 							"path": [
 								"pessoas"
 							]
@@ -154,11 +148,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:3333/pessoas/carregar/1/605cbe0037767117c4440381",
+							"raw": "{{API_Pessoas}}/pessoas/carregar/1/605cbe0037767117c4440381",
 							"host": [
-								"localhost"
+								"{{API_Pessoas}}"
 							],
-							"port": "3333",
 							"path": [
 								"pessoas",
 								"carregar",
@@ -175,11 +168,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:3333/pessoas/listar/1",
+							"raw": "{{API_Pessoas}}/pessoas/listar/1",
 							"host": [
-								"localhost"
+								"{{API_Pessoas}}"
 							],
-							"port": "3333",
 							"path": [
 								"pessoas",
 								"listar",
@@ -205,11 +197,10 @@
 							"raw": "{\r\n    \"idProprietario\": \"1\",\r\n    \"idUsuario\": \"2\",\r\n    \"tipo\": [\r\n        {\r\n            \"_id\": \"605ca4ff37767117c444037b\"\r\n        }\r\n    ],\r\n    \"nome\": \"Julio\",\r\n    \"email\": \"Julio@teste.com.br\",\r\n    \"enderecos\": [\r\n        {\r\n            \"descricao\": \"Sem descricao\",\r\n            \"rua\": \"RuaTeste2\",\r\n            \"numero\": \"22\",\r\n            \"referencia\": \"Sem referencia\",\r\n            \"bairro\": \"BairroTeste2\",\r\n            \"cidade\": \"Itatiba\",\r\n            \"estado\": \"São Paulo\",\r\n            \"cep\": \"00000-111\",\r\n            \"latitudeLongitude\": \"lat,lon\",\r\n            \"principal\":  true\r\n        }\r\n    ],\r\n    \"telefones\": [\r\n        {\r\n            \"tipo\": \"residencial\",\r\n            \"numero\": \"(11)1111-1111\"\r\n        },\r\n        {\r\n            \"tipo\": \"celular\",\r\n            \"numero\": \"(11)99999-9999\"\r\n        }\r\n    ],\r\n    \"documentosPf\": [\r\n        {\r\n            \"cpf\": \"000.000.000-00\",\r\n            \"rg\": \"00.000.000-0\"\r\n        }\r\n    ]\r\n}"
 						},
 						"url": {
-							"raw": "localhost:3333/pessoas/adicionar",
+							"raw": "{{API_Pessoas}}/pessoas/adicionar",
 							"host": [
-								"localhost"
+								"{{API_Pessoas}}"
 							],
-							"port": "3333",
 							"path": [
 								"pessoas",
 								"adicionar"
@@ -224,11 +215,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "localhost:3333/pessoas/deletar/1/605cbe0037767117c4440381",
+							"raw": "{{API_Pessoas}}/pessoas/deletar/1/605cbe0037767117c4440381",
 							"host": [
-								"localhost"
+								"{{API_Pessoas}}"
 							],
-							"port": "3333",
 							"path": [
 								"pessoas",
 								"deletar",
@@ -255,11 +245,10 @@
 							"raw": "{\r\n    \"nome\": \"Julio_alterado\",\r\n    \"email\": \"julio_alterado@teste.com.br\"\r\n}"
 						},
 						"url": {
-							"raw": "localhost:3333/pessoas/alterar/1/605cbe0037767117c4440381",
+							"raw": "{{API_Pessoas}}/pessoas/alterar/1/605cbe0037767117c4440381",
 							"host": [
-								"localhost"
+								"{{API_Pessoas}}"
 							],
-							"port": "3333",
 							"path": [
 								"pessoas",
 								"alterar",
@@ -271,6 +260,12 @@
 					"response": []
 				}
 			]
+		}
+	],
+	"variable": [
+		{
+			"key": "API_Pessoas",
+			"value": "localhost:2222"
 		}
 	]
 }
