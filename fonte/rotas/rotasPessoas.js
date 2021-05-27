@@ -53,6 +53,7 @@ router.post('/adicionar', (req, res) => {
         tipo: req.body.tipo,
         nome: req.body.nome,
         email: req.body.email,
+        dataNascimento: req.body.dataNascimento,
         enderecos: req.body.enderecos,
         telefones: req.body.telefones,
         documentosPf: req.body.documentosPf

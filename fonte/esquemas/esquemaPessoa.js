@@ -12,6 +12,7 @@ const EsquemaPessoa = new mongoose.Schema({
     ],
     nome: String,
     email: String,
+    dataNascimento: String,
     enderecos: [
         {
             descricao: String,
@@ -29,6 +30,7 @@ const EsquemaPessoa = new mongoose.Schema({
     telefones: [
         {
             tipo: String,
+            ddd: String,
             numero: String
         }
     ],
