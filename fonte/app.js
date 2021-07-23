@@ -32,3 +32,5 @@ app.use('/tipos', rotasTipos);
 app.use('/pessoas', rotasPessoas);
 
 module.exports = app;
+
+//teste
