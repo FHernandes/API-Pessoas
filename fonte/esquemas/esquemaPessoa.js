@@ -13,6 +13,7 @@ const EsquemaPessoa = new mongoose.Schema({
     nome: String,
     email: String,
     dataNascimento: String,
+    sexo: String,
     enderecos: [
         {
             descricao: String,
